@@ -1,0 +1,48 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos para el menú desplegable */
+  .menu-item:hover .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 140%;
+    left: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  .submenu li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .submenu a {
+    display: block;
+    padding: 5px 0;
+    color: #333;
+  }
+  
+  .submenu a:hover {
+    background-color: #eee;
+  }
+  
